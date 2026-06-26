@@ -169,10 +169,4 @@ Default weights:
 Set `lambda_cls` or `lambda_orth` to `0` if the corresponding term is not
 needed.
 
-## Troubleshooting
 
-- If a data path is reported empty, check `dataroot_H` and `dataroot_L`.
-- If paired data are missing, check whether AC/NAC file names match.
-- If CUDA memory is insufficient, reduce `dataloader_batch_size` or `H_size`.
-- If validation utilities fail, make sure the required packages are installed in
-  the active environment.
